@@ -36,6 +36,10 @@ if (Meteor.isServer) {
                 // Verify that the method does what we expected
                 assert.equal(Tasks.find().count(), 0);
             });
+
+            it('can check owned task', () => {
+
+            });
         });
     });
 }
